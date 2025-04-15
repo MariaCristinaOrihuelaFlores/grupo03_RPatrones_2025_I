@@ -1,4 +1,4 @@
-# Grupo 03 - Reconocimiento de Patrones
+# Redes neuronales artificiales para la predicción rápida de posibles inductores de ferroptosis utilizando la enzima GPx4 
 # 1. Introducción
 
 La lucha contra el cáncer sigue siendo uno de los retos más significativos en el ámbito de la salud global, afectando a 20 millones de personas en todo el mundo. La reactivación de la muerte celular inducida por la acumulación de peróxidos lipídicos dependientes del hierro (ferroptosis) es un mecanismo potencial para el tratamiento del cáncer.
