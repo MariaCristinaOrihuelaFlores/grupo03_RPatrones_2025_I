@@ -5,11 +5,22 @@ La lucha contra el cáncer sigue siendo uno de los retos más significativos en 
 
 Esto se debe a un principio químico, que nos da el indicio de que podemos usarla para destruir células cancerígenas. El principio comienza con el metabolismo normal de una persona, especialmente en procesos inflamatorios o en presencia de ciertas enzimas, se pueden crear peróxidos de hidrógeno (H₂O₂). Esta molécula reacciona con el hierro en su estado ferroso y se producirá una reacción llamada **Fentón**.
 
+![reaccion fenton](https://github.com/user-attachments/assets/8ccd72fe-3210-45e9-a7a9-ca27d7d6ea1d)
+
 Esto nos generará un radical hidroxilo, el cuál será altamente oxidante y tenderá a reaccionar en este caso con un lípido en el medio generando un radical lipídico.
+
+![oxidacion del lipido](https://github.com/user-attachments/assets/05352c1b-4a8d-4758-ab89-2937e1842971)
+
 
 En la reacción, el lípido a ser atacado se representa como **RH** y luego de la oxidación, quedará con un radical libre. Posteriormente, este lípido con el radical libre procederá a reaccionar con oxígeno y formará el **peróxido lipídico**, cuya acumulación está relacionada con la ferroptosis, el tipo de muerte celular programada que nos ayudará a combatir el cáncer.
 
+![formaciondelperoxidolipidico](https://github.com/user-attachments/assets/8c542cea-4e5a-4e71-a6f2-a3c8eb927f80)
+
+
 Como curiosidad adicional, este lípido con su radical libre podrá oxidar a otros lípidos, aumentando aún más la cantidad de peróxidos lipídicos.
+
+![oxidacion del lipido por otro lipido](https://github.com/user-attachments/assets/e538aeb6-7927-4a44-b675-aa044c3d0216)
+
 
 Una vía para desencadenar la ferroptosis implica la **inactivación de la proteína peroxidasa dependiente del glutatión (GPx4)**. La identificación de moléculas que pueden inducir ferroptosis a través de la inhibición de GPx4 es crucial para el desarrollo de nuevas terapias anticancerígenas.
 
