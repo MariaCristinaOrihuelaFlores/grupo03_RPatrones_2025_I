@@ -44,47 +44,6 @@ Imagina que entrenas a un robot que debe separar pelotas rojas y azules con una 
 
 ---
 
-### 🧪 Código de ejemplo
-
-```python
-from sklearn import datasets
-from sklearn.svm import SVC
-from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Dataset sintético para visualización
-from sklearn.datasets import make_classification
-X, y = make_classification(n_samples=100, n_features=2, 
-                           n_redundant=0, n_informative=2,
-                           random_state=42, n_clusters_per_class=1)
-
-# Entrenar modelos con diferentes valores de C
-model_lowC = SVC(kernel='linear', C=0.1)
-model_highC = SVC(kernel='linear', C=100)
-
-model_lowC.fit(X, y)
-model_highC.fit(X, y)
-
-# Función para graficar el resultado
-def plot_decision_boundary(model, title):
-    w = model.coef_[0]
-    b = model.intercept_[0]
-    x_plot = np.linspace(X[:, 0].min(), X[:, 0].max(), 30)
-    y_plot = -(w[0] * x_plot + b) / w[1]
-
-    plt.figure()
-    plt.scatter(X[:, 0], X[:, 1], c=y, cmap='bwr', edgecolors='k')
-    plt.plot(x_plot, y_plot, 'k-')
-    plt.title(title)
-    plt.xlabel("Feature 1")
-    plt.ylabel("Feature 2")
-    plt.grid(True)
-    plt.show()
-
-plot_decision_boundary(model_lowC, "SVM con C=0.1 (margen amplio)")
-plot_decision_boundary(model_highC, "SVM con C=100 (margen estrecho)")
-
 
 ## 🌐 ¿Qué es el Kernel?
 
