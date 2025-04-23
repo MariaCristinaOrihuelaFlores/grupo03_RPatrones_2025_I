@@ -47,6 +47,7 @@ El **kernel** es una función que permite que un modelo SVM (Support Vector Mach
 ![image](https://github.com/user-attachments/assets/243327d8-f256-4992-bfd5-f71ec4ec6533)
 
 🔍 Explicación del gráfico:
+
 Gamma bajo (0.01):
 La frontera es muy suave, generaliza demasiado → underfitting.
 
