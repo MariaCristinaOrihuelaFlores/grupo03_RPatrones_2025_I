@@ -56,6 +56,21 @@ Otro punto clave que nos ayudará a entender bien, como funciona el Random Fores
 
 - Es más difícil de interpretar en comparación con modelos más simples como los árboles de decisión [1].
 
+## Discusión
+
+Random Forest es básicamente un conjunto de árboles de decisión que trabajan juntos para hacer una predicción más robusta. Cada árbol se entrena con una parte diferente de los datos y, al final, la decisión final se toma como un "voto" entre todos los árboles. Esto ayuda mucho a evitar el sobreajuste y a mejorar la precisión, como vimos en clase y en la teoría [1].
+
+Ahora, viendo los resultados de nuestro experimento:
+
+Cuando variamos el criterio de pureza, gini dio el mejor accuracy (0.9704) comparado con entropy y log_loss. Esto tiene sentido porque gini suele ser más rápido de calcular y es más eficiente en conjuntos de datos grandes como MNIST.
+
+Sobre el número de estimadores, notamos que conforme aumentábamos la cantidad de árboles, el accuracy también subía. Por ejemplo, con 10 árboles apenas llegamos a 0.9492, pero con 1000 árboles subimos hasta 0.9725. Sin embargo, también vimos que el tiempo de entrenamiento creció bastante.
+Por eso, 500 árboles nos pareció el mejor punto de equilibrio: el accuracy era alto (0.9712) y el costo computacional no era tan exagerado. A partir de 500, el aumento en accuracy ya era muy pequeño, pero el tiempo de entrenamiento sí que aumentaba un montón.
+
+En cuanto a la profundidad máxima de los árboles, al usar una profundidad baja como 5, el accuracy cayó bastante (0.8673). A medida que aumentábamos la profundidad, el accuracy subía, llegando a 0.9714 con profundidad 30. Curiosamente, vimos que profundidad 30 dio mejor resultado que dejar los árboles sin límite de profundidad (None), donde el accuracy fue 0.9712. Esto sugiere que en este caso, poner un límite de profundidad ayuda a mejorar el rendimiento y a evitar overfitting.
+
+Finalmente, comparado con otros modelos como SVM, notamos que Random Forest entrenó mucho más rápido. Con SVM, los entrenamientos eran bastante pesados para este tamaño de dataset (MNIST), mientras que Random Forest, aunque tarda más a medida que suben los árboles, sigue siendo mucho más ágil en general.
+
 ## Referencias
 
 [1] geeksforgeeks. “Random Forest Algorithm in Machine Learning - GeeksforGeeks”. GeeksforGeeks. Accedido el 28 de abril de 2025. [En línea]. Disponible: https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/?utm_source=chatgpt.com
