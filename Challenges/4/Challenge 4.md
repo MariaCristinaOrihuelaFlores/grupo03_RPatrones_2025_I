@@ -2,7 +2,7 @@ Un Random Forest (Bosque Aleatorio) es un conjunto de árboles de decisión que 
 
 # Entendiendo la intuición detrás del algoritmo Random Forest
 
-El algoritmo Random Forest es una técnica poderosa de aprendizaje basada en árboles en Machine Learning que se utiliza para hacer predicciones, y luego se realiza una votación entre todos los árboles para determinar la predicción final. Son ampliamente utilizados en tareas de clasificación y regresión.
+El algoritmo Random Forest es una técnica poderosa de aprendizaje basada en árboles en Machine Learning que se utiliza para hacer predicciones, y luego se realiza una votación entre todos los árboles para determinar la predicción final. Son ampliamente utilizados en tareas de clasificación y regresión [1].
 
 #### Ejemplo práctico:
 
@@ -11,26 +11,6 @@ Imagina que pides consejo a un grupo de amigos sobre a dónde ir de vacaciones. 
 ![image](https://github.com/user-attachments/assets/4758d448-10d9-4257-a676-d37b509c38d5)
 
 En la imagen podemos ver que: el proceso comienza con un conjunto de datos que contiene filas y sus correspondientes etiquetas de clase (columnas).
-
-#### Luego:
-
-Se crean múltiples árboles de decisión a partir de los datos de entrenamiento. Cada árbol se entrena utilizando un subconjunto aleatorio de los datos (con reemplazo) y un subconjunto aleatorio de características. Este proceso se conoce como bagging o bootstrap aggregating.
-
-Cada árbol de decisión en el conjunto aprende a hacer predicciones de forma independiente.
-
-Cuando se presenta una nueva instancia no vista, cada árbol de decisión en el conjunto realiza una predicción.
-
-La predicción final se obtiene combinando las predicciones de todos los árboles de decisión. Esto se hace generalmente mediante votación por mayoría (para clasificación) o promediando (para regresión).
-
-Características clave del Random Forest
-Manejo de datos faltantes: Maneja automáticamente los valores faltantes durante el entrenamiento, eliminando la necesidad de hacer imputaciones manuales.
-
-Importancia de características: El algoritmo clasifica las características según su importancia para hacer predicciones, ofreciendo información valiosa para la selección de variables y la interpretación del modelo.
-
-Escala bien con datos grandes y complejos: Mantiene un buen rendimiento incluso en conjuntos de datos grandes y complejos sin una degradación significativa en el desempeño.
-
-Versatilidad: El algoritmo puede aplicarse tanto a tareas de clasificación (por ejemplo, predecir categorías) como de regresión (por ejemplo, predecir valores continuos).
-
 
 ### ¿Cómo funciona el algoritmo de Random Forest?
 
@@ -48,7 +28,7 @@ Paso 5) Para tareas de regresión, la predicción final es el promedio de las pr
 
 Paso 6) La aleatoriedad en la selección de muestras de datos y características ayuda a prevenir el sobreajuste (overfitting), haciendo que las predicciones sean más precisas y confiables.
 
-Otro punto clave que nos ayudará a entender bien, como funciona el Random Forest son los supuestos, las ventajas y limitaciones del modelo.
+Otro punto clave que nos ayudará a entender bien, como funciona el Random Forest son los supuestos, las ventajas y limitaciones del modelo [1].
 
 ## Supuestos del Random Forest
 
@@ -58,7 +38,7 @@ Otro punto clave que nos ayudará a entender bien, como funciona el Random Fores
 
 - Se necesita suficiente cantidad de datos: Tener suficientes datos asegura que los árboles sean diferentes entre sí y aprendan patrones variados.
 
-- Predicciones diferentes mejoran la precisión: Combinar las predicciones de distintos árboles lleva a obtener un resultado final más preciso.
+- Predicciones diferentes mejoran la precisión: Combinar las predicciones de distintos árboles lleva a obtener un resultado final más preciso [1].
 
 ## Ventajas del Random Forest
 
@@ -68,11 +48,14 @@ Otro punto clave que nos ayudará a entender bien, como funciona el Random Fores
 
 - No requiere normalización ni estandarización del conjunto de datos.
 
-- Al combinar múltiples árboles de decisión, se reduce el riesgo de sobreajuste del modelo.
+- Al combinar múltiples árboles de decisión, se reduce el riesgo de sobreajuste del modelo [1].
 
 ## Limitaciones del Random Forest
 
 - Puede ser computacionalmente costoso, especialmente cuando se utilizan muchos árboles.
 
-- Es más difícil de interpretar en comparación con modelos más simples como los árboles de decisión.
+- Es más difícil de interpretar en comparación con modelos más simples como los árboles de decisión [1].
 
+## Referencias
+
+[1] geeksforgeeks. “Random Forest Algorithm in Machine Learning - GeeksforGeeks”. GeeksforGeeks. Accedido el 28 de abril de 2025. [En línea]. Disponible: https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/?utm_source=chatgpt.com
