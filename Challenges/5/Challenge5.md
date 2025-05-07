@@ -25,7 +25,7 @@ Vemos que tenemos el SMILE y varios descriptores moleculares de diferentes molé
 | `Defined_Bond_Stereo_Count`  | Numérico  | Cuántos están definidos como E o Z.                                                               |
 | `Undefined_Bond_Stereo_Count`| Numérico  | Cuántos no tienen definida la geometría (E/Z).                                                    |
 
-Tres **descriptores moleculares** particularmente importantes para una interpretación futura con aplicaciones tecnológicas, científicas o farmacológicas son:
+De la tabla vamos a seleccionar tres **descriptores moleculares** particularmente importantes para una interpretación futura con aplicaciones tecnológicas, científicas o farmacológicas:
 
 1. **`Polar_Area` (Área Polar Superficial)**: Es crucial porque influye directamente en la **permeabilidad celular** y la **absorción oral** de una molécula, lo cual es vital para evaluar su viabilidad como fármaco o compuesto bioactivo.
 
