@@ -65,3 +65,52 @@ Con base en los valores observados en la tabla (`Polar_Area`, `XLogP`, `H-Bond_D
 ### 📌 Conclusión General
 La diversidad en estos tres descriptores clave indica que la biblioteca molecular está bien equilibrada para abordar distintas **rutas de administración**, **afinidades biológicas** y **usos farmacológicos o tecnológicos**. Se pueden identificar tanto moléculas con buen perfil de absorción oral como otras más aptas para **aplicaciones extracelulares o biotecnológicas**.
 
+## 🧪 Exploración Inicial de la Matriz de Correlación
+
+A continuación se presentan observaciones clave sobre los descriptores moleculares seleccionados: **Polar Area (TPSA)**, **XLogP**, y **H-Bond Donor / Acceptor Count**, con base en la matriz de correlación visualizada.
+
+---
+
+### 🔍 1. Relaciones entre los descriptores seleccionados
+
+- **TPSA vs. H-Bond Donor/Acceptor Count**:  
+  Existe una **fuerte correlación positiva**. Esto indica que las moléculas con mayor área polar superficial tienden a tener más grupos capaces de formar enlaces de hidrógeno, lo cual es químicamente consistente.
+
+- **XLogP vs. TPSA / H-Bond Count**:  
+  Se observa una **correlación negativa o débil**, lo cual sugiere que moléculas más lipofílicas (alto LogP) tienen menos grupos polares y, por tanto, menor capacidad para formar enlaces de hidrógeno.
+
+---
+
+### 🔄 2. Implicancias para el Agrupamiento de Moléculas
+
+Estos patrones sugieren **dos agrupamientos naturales**:
+
+- **Moléculas polares e hidrofílicas**:  
+  - Alto TPSA  
+  - Alto número de H-Bond Donors/Acceptors  
+  - Probablemente solubles en agua  
+  - Potenciales candidatos para targets **extracelulares**
+
+- **Moléculas lipofílicas**:  
+  - Alto XLogP  
+  - Bajo TPSA y bajo H-Bond Count  
+  - Mayor permeabilidad de membrana  
+  - Potenciales candidatos para targets **intracelulares** o **administración oral**
+
+Estos grupos pueden explorarse con técnicas de **clustering no supervisado** como **K-means** o **clustering jerárquico**.
+
+---
+
+### 🎯 3. Posibles Aplicaciones según el Agrupamiento
+
+Dependiendo del perfil fisicoquímico, las moléculas podrían orientarse a distintas aplicaciones:
+
+- **Moléculas con alta polaridad (alto TPSA, muchos H-Bond)**:  
+  - Uso tópico  
+  - Antimicrobianos  
+  - Targets extracelulares (e.g., receptores de membrana)
+
+- **Moléculas lipofílicas (alto XLogP)**:  
+  - Posible cruce de barreras biológicas (e.g., barrera hematoencefálica)  
+  - Uso sistémico oral  
+  - Targets intracelulares
