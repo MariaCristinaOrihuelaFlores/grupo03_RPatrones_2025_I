@@ -3,9 +3,9 @@
 - Descripción del curso y lo que esperan aprender.
 
 ## Presentación del equipo
-
-- Descripción con foto de cada integrante
-
+- Cristina Orihuela
+- Gabriel Marcos
+- Rodrigo Gonzales
 ## Proyecto de curso
 Identificación de infecciones fúngicas clínicas mediante espectroscopía Raman unicelular y aprendizaje profundo
 - Descripción del proyecto  
