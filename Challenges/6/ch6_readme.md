@@ -47,7 +47,7 @@ Se utiliza el dataset publicado por Grisoni et al., disponible en el repositorio
 
 ##  Referencias
 
-- [QSAR Bioconcentration Classes Dataset – UCI ML Repository](https://archive.ics.uci.edu/dataset/510/qsar+bioconcentration+classes+dataset)
+- QSAR Bioconcentration classes dataset [Dataset]. (2019). UCI Machine Learning Repository. https://doi.org/10.24432/C56S46.
 - Grisoni, F., Consonni, V., Vighi, M., Villa, S., & Todeschini, R. (2016). Expert QSAR system for predicting the bioconcentration factor under the REACH regulation. *Environmental Research*, 151, 478–487.  
 [https://doi.org/10.1016/j.envres.2016.04.032](https://doi.org/10.1016/j.envres.2016.04.032)
 
