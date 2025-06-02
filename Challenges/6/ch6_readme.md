@@ -20,8 +20,8 @@ En este estudio se abordan dos objetivos:
 
 ## Dataset
 
-Se utiliza el dataset publicado por Grisoni et al. (2016), disponible en Kaggle:  
-🔗 [QSAR Bioconcentration Dataset](https://www.kaggle.com/datasets/rajgupta2019/qsar-bioconcentration-classes-dataset/)
+Se utiliza el dataset publicado por Grisoni et al., disponible en el repositorio de la UCI:  
+🔗 https://archive.ics.uci.edu/dataset/510/qsar+bioconcentration+classes+dataset
 
 - **Número de muestras:** 779 compuestos químicos.
 - **Columnas de entrada:** 9 descriptores moleculares numéricos.
@@ -47,6 +47,9 @@ Se utiliza el dataset publicado por Grisoni et al. (2016), disponible en Kaggle:
 
 ##  Referencias
 
-Grisoni, F., Cassotti, M., Todeschini, R., & Benfenati, E. (2016). Reshaped k-nearest neighbor QSAR algorithm: optimizing the predictive performance of the k-nearest neighbor algorithm in QSAR. *Journal of chemical information and modeling*, 56(12), 2307–2312.
+- [QSAR Bioconcentration Classes Dataset – UCI ML Repository](https://archive.ics.uci.edu/dataset/510/qsar+bioconcentration+classes+dataset)
+- Grisoni, F., Consonni, V., Vighi, M., Villa, S., & Todeschini, R. (2016). Expert QSAR system for predicting the bioconcentration factor under the REACH regulation. *Environmental Research*, 151, 478–487.  
+[https://doi.org/10.1016/j.envres.2016.04.032](https://doi.org/10.1016/j.envres.2016.04.032)
+
 
 ---
