@@ -1,0 +1,16 @@
+program: train_regression.py
+method: grid
+
+parameters:
+  activation:
+    values: ["silu"]
+  dropout:
+    values: [0.0]
+  hidden_dim:
+    values: [64, 128]
+  layers:
+    values: [2, 3]
+  lr:
+    values: [0.0005]
+  weight_decay:
+    values: [0.0001]

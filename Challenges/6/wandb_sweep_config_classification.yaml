@@ -1,0 +1,8 @@
+program: train_classification.py
+method: grid
+
+parameters:
+  hidden_dim:
+    values: [64, 128]
+  layers:
+    values: [2, 3]
