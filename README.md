@@ -9,7 +9,7 @@
 |<div align="center"><image src="https://github.com/MariaCristinaOrihuelaFlores/grupo03_RPatrones_2025_I/blob/main/Challenges/Integrantes/Firefly 20250120222401.png" width="200px" height="270px">| **Gabriel Sanchez**<br>gabriel.marcos@upch.pe<br> <p align="justify"> Estudiante de 9no Ciclo con experiencia en el desarrollo de soluciones tecnológicas innovadoras para desafíos emergentes mediante investigación científica y en el área de Ingenieria Clínica. Poseo habilidades analíticas avanzadas y una sólida formación en software de análisis, visualización y procesado de datos. Motivado por seguir aprendiendo nuevas tecnologías  e integrarlas en el desarrollo de proyectos con un impacto positivo en el sector salud </p>|
 |![Figureteando](https://github.com/user-attachments/assets/27cb749f-98c4-410e-8bc6-8e3e4aba4c83)| **Rodrigo Gonzales**<br>rodrigo.gonzales@upch.pe<br> <p align="justify"> Estudiante de Ingeniería Biomédica de 9no ciclo orientado a la investigación y al desarrollo de soluciones tecnológicas para el sector salud. Interesado en aplicar sus conocimientos en proyectos con impacto real en la sociedad. </p>|
 
-# Mejora de la segmentación en ecografías abdominales mediante adaptación de dominio con CycleGAN y U-Net
+# Improving Ultrasound Segmentation through Domain Adaptation
 
 ## Descripción del proyecto
 
